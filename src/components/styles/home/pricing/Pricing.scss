@@ -1,0 +1,118 @@
+#pricing {
+  margin-top: 100px;
+  background: linear-gradient(90deg, #09203F 0%, #161D2F 100%);
+  height:  87vh;
+  .pricing--title{
+    padding-bottom: 60px;
+    p{
+      font-weight: 400;
+      font-size: 14px;
+      text-align: center;
+      color: #FFFFFF;
+      padding: 70px 0 30px 0 ;
+    }
+    h1{
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 150%;
+      text-align: center;
+      text-transform: capitalize;
+      color: #FFFFFF;
+    }
+  }
+  .pricing--general {
+    padding-bottom:  100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    &__block{
+      width: 350px;
+      height: 682px;
+      background: #FFFFFF;
+      border: 1px solid #FFFFFF;
+      box-shadow: 0 16px 35px rgba(112, 144, 176, 0.2);
+      border-radius: 35px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      &--popular{
+        width: 76px;
+        height: 75px;
+        background: #63C776;
+        border-radius: 0 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 276px;
+        h6{
+          font-weight: 600;
+          font-size: 14px;
+          text-align: center;
+          text-transform: capitalize;
+          color: #FFFFFF;
+        }
+      }
+      h1{
+        font-weight: 600;
+        font-size: 30px;
+        text-align: center;
+        color: #161D2F;
+      }
+      img{
+        padding: 30px 0;
+      }
+      h3{
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+        color: #222222;
+      }
+      &--vector{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0 0 0;
+        &__i{
+          padding-right: 20px;
+          i{
+            color: green;
+            font-size: 20px;
+          }
+        }
+        p{
+          font-weight: 300;
+          font-size: 18px;
+          color: #222222;
+        }
+      }
+      h2{
+        padding: 60px 0;
+        font-weight: 600;
+        font-size: 32px;
+        text-align: center;
+        color: #161D2F;
+        span{
+          font-weight: 300;
+        }
+      }
+      &--btn{
+        margin-top:  -60px;
+        font-weight: 500;
+        font-size: 18px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        background: linear-gradient(97.1deg, #3043A9 11.99%, #1F629F 96.6%);
+        border-radius: 28px;
+        width: 161px;
+        height: 57px;
+        border:none;
+        transition: .4s ;
+        &:hover{
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+}
