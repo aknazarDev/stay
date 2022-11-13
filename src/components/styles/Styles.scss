@@ -1,0 +1,37 @@
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+//fonts
+
+//import
+@import "../../components/styles/header/Header";
+@import "../../components/styles/home/Home";
+@import "../../components/styles/footer/Footer";
+//import
+
+//icons
+@import "icon.css";
+//icons
+
+
+//global
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body, html {
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+}
+
+//global

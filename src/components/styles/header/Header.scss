@@ -1,0 +1,46 @@
+#header{
+  background: #161D2F;
+  .header--general{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0 ;
+    a{
+      font-weight: 800;
+      font-size: 24px;
+      color: #FFFFFF;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+    &__items{
+      a{
+        padding-left: 50px;
+        font-weight: 300;
+        font-size: 14px;
+        color: #FFFFFF;
+        &:hover{
+          font-weight: 500;
+          color: #FFFFFF;
+        }
+      }
+    }
+    &__btn{
+      width: 157px;
+      height: 53px;
+      background: linear-gradient(97.1deg, #3043A9 11.99%, #1F629F 96.6%);
+      border-radius: 28px;
+      font-weight: 500;
+      font-size: 18px;
+      text-align: center;
+      text-transform: capitalize;
+      color: #FFFFFF;
+      border: none;
+      transition: .4s linear;
+      cursor: pointer;
+      &:hover{
+        transform: scale(1.1);
+      }
+    }
+  }
+}

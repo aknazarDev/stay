@@ -1,0 +1,109 @@
+#hero {
+  background: #161D2F;
+
+  .hero--general {
+    padding-top: 50px;
+
+    &__title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      h1 {
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-bottom: 20px;
+      }
+
+      h2 {
+        width: 1110px;
+        height: 279px;
+        font-weight: 700;
+        font-size: 62px;
+        line-height: 150%;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+      }
+
+      p {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 30px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        width: 689px;
+        height: 90px;
+        margin-bottom: 30px;
+      }
+
+      &--btn {
+
+        &__now {
+          width: 157px;
+          height: 53px;
+          background: linear-gradient(97.1deg, #3043A9 11.99%, #1F629F 96.6%);
+          border-radius: 28px;
+          font-weight: 500;
+          font-size: 18px;
+          text-align: center;
+          text-transform: capitalize;
+          color: #FFFFFF;
+          border: none;
+          transition: .4s linear;
+          cursor: pointer;
+
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+
+        &__contact {
+          border: 1px solid #FFFFFF;
+          border-radius: 28px;
+          width: 157px;
+          height: 53px;
+          font-weight: 300;
+          font-size: 18px;
+          text-align: center;
+          text-transform: capitalize;
+          color: #FFFFFF;
+          transition: .4s linear;
+          cursor: pointer;
+          background: transparent;
+          margin-left: 40px;
+          margin-bottom: 50px;
+
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+      }
+
+      &--circle{
+        height: 83px;
+        width: 83px;
+        border-radius: 50%;
+        background: rgba(0, 0, 0, 0.4);
+        bottom: -45%;
+        position: absolute;
+        i {
+          font-size: 60px;
+          position: relative;
+          color: white;
+          left: 23px;
+          top: 11px;
+        }
+      }
+
+      img{
+        padding-bottom: 50px;
+      }
+
+    }
+  }
+}
