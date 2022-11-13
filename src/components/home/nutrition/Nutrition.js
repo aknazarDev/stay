@@ -4,7 +4,7 @@ const Nutrition = () => {
     return (
         <section id="nutrition">
             <div className="container">
-                <div className="nutrition--general">]
+                <div className="nutrition--general">
                 </div>
             </div>
         </section>
